@@ -1,0 +1,38 @@
+.About{
+    height: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+img{
+    margin: 10px;
+}
+
+.About .left h1 {
+    text-align: center;
+}
+
+.About .left .p12{
+    text-align: center;
+}
+
+.About .left {
+    text-align: center;
+}
+
+.AboutSec{
+    height: auto;
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+    height: auto;
+}
+
+.AboutSec::-webkit-scrollbar{
+    overflow: hidden;
+}

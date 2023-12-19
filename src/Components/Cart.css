@@ -1,0 +1,22 @@
+.cart{
+    width: auto;
+    margin: auto;
+}
+
+table{
+    margin-top: 10px;
+    width: auto;
+    border: 1px solid black;
+    text-align: center;
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:800px) {
+    table{
+        font-size: 11px;
+    }
+}

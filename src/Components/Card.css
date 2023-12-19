@@ -1,0 +1,14 @@
+.Card{
+    height: auto;
+    width: 300px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.Card button{
+    background: #FFC636;
+    padding: 10px;
+    border: 1px solid #FFC636;
+    margin: 10px;
+    font-weight: bold;
+}

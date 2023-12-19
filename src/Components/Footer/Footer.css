@@ -1,0 +1,50 @@
+.Footer{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    color: wheat;
+}
+
+.footdiv{
+    height: 380px;
+    width: 300px;
+   
+}
+
+#box3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+#box1 a{
+    text-decoration: none;
+    color: bisque;
+
+}
+
+@media screen and (max-width:900px) {
+    .Footer{
+        height: 150vh;
+        width: 100%;
+        background-color: black;
+    }
+    
+.footdiv{
+    height: 280px;
+    width: 200px;
+   
+}
+}

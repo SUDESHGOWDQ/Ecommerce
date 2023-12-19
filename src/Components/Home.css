@@ -1,0 +1,38 @@
+.sec{
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+button{
+    padding: 10px;
+    margin: 10px;
+    background: yellow;
+    border: none;
+    font-weight: 900;
+}
+
+.HomeMain{
+    background: url("https://image.spreadshirtmedia.com/content/f_auto,q_80/v2/CMS/Startpage/Hero/christmas2023v2/Xmas23_HP2_desktop_NA/XmasHP2_23_HPteaser_desktop_NA.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    text-align: center;
+}
+
+
+
+.asidecar{
+    display: flex;
+    overflow-x: scroll;
+    object-fit: cover;
+    height: 400px;
+}
+
+.asidecar::-webkit-scrollbar{
+    display: none;
+}

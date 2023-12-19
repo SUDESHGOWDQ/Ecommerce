@@ -1,0 +1,35 @@
+.Nav{
+    position: sticky;
+    top: 0;
+}
+
+.navbar{
+    height: auto;
+    width: 100%;
+    background-color:black;
+    position: sticky;
+    top: 0;
+}
+
+.navart{
+    height: auto;
+    width: 80%;
+    background: black;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navdiv input{
+    padding: 10px;
+    width: 400px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+#Artbtn button{
+    margin: 10px;
+}
